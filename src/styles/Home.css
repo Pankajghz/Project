@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+}
+
+.navbar-nav>li {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.img {
+    background: linear-gradient(180deg, black, #db005b, black);
+    width: 100%;
+    height: 93vh;
+    text-align: center;
+}
+
+.img .btn {
+    font-family: 'Roboto', sans-serif;
+    background-color: #db005b;
+    border: none;
+    color: white;
+    padding: 0.5rem 6.25rem;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 0rem;
+    cursor: pointer;
+    border-radius: 2rem;
+    font-size: 1.25rem;
+}
+
+.img .heads {
+    padding-top: 25rem;
+}
+
+.maincontent {
+    min-width: 100%;
+    max-height: 100%;
+    padding-top: 5rem;
+    font-size: 6rem;
+    color: white;
+    font-family: 'Dancing Script', cursive;
+
+
+}
+
+.button {
+    height: 3rem;
+
+    background-color: #db005b;
+
+}
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (max-width: 380px) {
+
+    .maincontent {
+
+        padding-top: 5rem;
+        font-size: 5rem;
+        color: white;
+        font-family: 'Dancing Script', cursive;
+
+    }
+}
+
+/*/ Medium devices (tablets, 768px and up)*/
+@media (min-width:768px) and (max-width: 821px) {
+    .maincontent {
+
+        padding-top: 13rem;
+        font-size: 7rem;
+        color: white;
+        font-family: 'Dancing Script', cursive;
+
+    }
+}
+
+/*/ X-Large devices (large desktops, 1200px and up)*/
+
+/*/ XX-Large devices (larger desktops, 1400px and up)*/
+@media (min-width: 1400px) {}
