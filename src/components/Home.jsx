@@ -23,13 +23,6 @@ const Home = () => {
             Create Account
           </button>
         </Link>
-        <div>
-          <Link to="/Login">
-            <button type="button" className="btn btn-danger bg-black">
-              follow
-            </button>
-          </Link>
-        </div>
       </div>
     </>
   );
